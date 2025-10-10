@@ -19,7 +19,7 @@ DEFAULT_CONTEXT_FILE = Path(__file__).with_name("description.txt")
 MODEL_NAME = "models/gemini-2.5-flash"
 FALLBACK_REPLY = "I'm sorry, I don't have that information right now."
 EXIT_COMMANDS = {"quit", "exit", "bye"}
-API_KEY = "your_api_key_here"  # Replace with your actual Gemini API key
+API_KEY = "api_key_here"  # Replace with your Gemini API key
 
 
 def read_context(context_path: Path) -> str:
